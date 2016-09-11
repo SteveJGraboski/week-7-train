@@ -14,8 +14,8 @@
 <div class="container">
 
 	<!-- Jumbotron  -->
-	<div class="jumbotron blue" id="jTron">
-		<h1><span class="glyphicon glyphicon-dashboard"></span>Train Schedule</h1>
+	<div class="jumbotron" id="jTron">
+		<h1 class="text-center"><span class="glyphicon glyphicon-dashboard "></span>Train Schedule</h1>
 	</div>
 
 	
@@ -24,14 +24,14 @@
 		<!-- Results Panel -->
 		<div class="col-lg-12">
 			<div class="panel panel-default">
-					<div class="panel-heading blue" id="headerone">
+					<div class="panel-heading" id="headerone">
 						<h3 class="panel-title text-center">Add Train</h3>
 					</div>
 					<div class="panel-body text-center" id="wellSection">
-							<table class = "table">
+							
    
-   
-   <thead>
+<table  class = "table">
+  
       <tr>
          <th>Train Name</th>
          <th>Destination</th>
@@ -40,18 +40,15 @@
          <th>Minutes Away</th>
 
       </tr>
-   </thead>
-   
-   <tbody>
       <tr>
-         <td>Choo Choo</td>
-         <td>Bangalore</td>
-         <td>60</td>
-         <td>13:00</td>
-         <td>10</td>
+         <td>dan</td>
+         <td>d</td>
+         <td>f</td>
+         <td>s</td>
+         <td>a</td>
       </tr>
       
-   </tbody>
+
 	
 </table>
 					</div>
@@ -67,34 +64,34 @@
 						<h3 class="panel-title text-center">Current Train Schedule</h3>
 					</div>
 					<div class="panel-body">
-						<form role="form">
+						<form role="form" id="input">
 
 						  <div class="form">
-						    <label for="search">Train Name: </label>
-						    <input type="text" class="form-control" id="search">
+						    <label for="search">Train Name </label>
+						    <input type="text" class="form-control" id="name">
 						  </div>
 
 							
 
 						  <div class="form">
 						    <label for="endYear">Destination </label>
-						    <input type="text" class="form-control" id="endYear">
+						    <input type="text" class="form-control" id="destination">
 						  </div>
 
 						  <div class="form">
 						    <label for="endYear">First Train Name (HH:mm - military time) </label>
-						    <input type="text" class="form-control" id="endYear">
+						    <input type="text" class="form-control" id="time">
 						  </div>
 
 						  <div class="form">
 						    <label for="endYear">Frequency (min) </label>
-						    <input type="text" class="form-control" id="endYear">
+						    <input type="text" class="form-control" id="frequency">
 						  </div>
 						  
 						  
 
-						  <button type="button" +- id="searchBtn"><span class="glyphicon glyphicon-search"></span> Search</button>
-  						  <button type="button" class="btn btn-primary blue" id="resetButton"><span class="glyphicon glyphicon-trash"></span> Clear Results</button>
+						  <button type="button" +- id="searchBtn"><span class="glyphicon glyphicon-search"></span>submit</button>
+  						  
 
 						</form>
 					</div>
